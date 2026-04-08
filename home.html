@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Campus Clique</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="top-bar">
+  <h1>CampusClique</h1>
+  <input type="text" id="search" placeholder="Search events...">
+</header>
+
+<div class="filters">
+  <button onclick="filterEvents('all')">All</button>
+  <button onclick="filterEvents('music')">Music</button>
+  <button onclick="filterEvents('tech')">Tech</button>
+  <button onclick="filterEvents('sports')">Sports</button>
+</div>
+
+<div id="eventContainer" class="container"></div>
+
+<nav class="bottom-nav">
+  <button>Home</button>
+  <button>Events</button>
+  <button>Saved</button>
+  <button>Profile</button>
+</nav>
+
+<link rel="stylesheet" href="style.css">
+<script src="myjs.js" defer></script>
+
+</body>
+</html>
