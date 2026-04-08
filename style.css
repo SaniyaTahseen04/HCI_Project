@@ -1,0 +1,78 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background: #F5F5F5;
+}
+
+/* Top Bar */
+.top-bar {
+  background: #1E3A8A;
+  color: white;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.top-bar input {
+  padding: 6px;
+  border-radius: 6px;
+  border: none;
+}
+
+/* Filters */
+.filters {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px;
+}
+
+.filters button {
+  padding: 8px 15px;
+  border: none;
+  background: #FF4D8D;
+  color: white;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+/* Cards */
+.container {
+  padding: 15px;
+}
+
+.card {
+  background: #FFFFFF;
+  padding: 15px;
+  border-radius: 12px;
+  margin-bottom: 15px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+/* Status colors */
+.upcoming { background: #3B82F6; color: white; }
+.ongoing { background: #22C55E; color: white; }
+.completed { background: #9CA3AF; color: white; }
+
+.status {
+  padding: 5px 10px;
+  border-radius: 10px;
+  font-size: 12px;
+}
+
+/* Bottom Nav */
+.bottom-nav {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background: #2A383A;
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+}
+
+.bottom-nav button {
+  background: none;
+  color: white;
+  border: none;
+}
